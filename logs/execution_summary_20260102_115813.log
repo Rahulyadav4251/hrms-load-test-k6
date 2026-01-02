@@ -16,3 +16,14 @@ Module: employee-central
 File: /k6/modules/employee-central/createBulkUsers.js
 Started: Fri Jan  2 11:58:13 UTC 2026
 Log: employee-central_createBulkUsers_20260102_115813.log
+Completed:    Fri Jan  2 12:31:02 UTC 2026
+Duration:     1969s
+Status:       SUCCESS
+Exit Code:    0
+
+==========================================
+Execution Completed
+==========================================
+End time: Fri Jan  2 12:31:02 UTC 2026
+Total tests executed: 1
+==========================================
