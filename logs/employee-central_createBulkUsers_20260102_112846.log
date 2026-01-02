@@ -1,0 +1,24 @@
+==================================================
+K6 Test Execution Detailed Log
+==================================================
+Test Name:    createBulkUsers
+Module:       employee-central
+File:         /k6/modules/employee-central/createBulkUsers.js
+Start Time:   Fri Jan  2 11:28:46 UTC 2026
+Log File:     /k6/logs/employee-central_createBulkUsers_20260102_112846.log
+Execution:    1 of 1
+Configuration: /k6/test-config.json
+==================================================
+
+=== K6 Output ===
+
+time="2026-01-02T11:28:46Z" level=error msg="ReferenceError: SharedArrayBuffer is not defined\n\tat file:///k6/modules/employee-central/createBulkUsers.js:11:44(35)\n" hint="script exception"
+
+==================================================
+Test Summary
+==================================================
+Exit Code:    0
+Duration:     0 seconds
+End Time:     Fri Jan  2 11:28:46 UTC 2026
+Status:       SUCCESS
+==================================================

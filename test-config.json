@@ -1,0 +1,7 @@
+{
+  "run_all": false,
+  "include": ["employee-central/createBulkUsers.js"
+     
+  ],
+  "exclude": ["user/98vulogin.js","payroll-compensation/50vuPayrollCheck.js","attendance_leave_management/morningBiometricAttendance.js"]
+}

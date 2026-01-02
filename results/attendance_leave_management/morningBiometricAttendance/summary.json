@@ -1,0 +1,816 @@
+{
+  "root_group": {
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": [],
+    "checks": [
+        {
+          "fails": 0,
+          "name": "login success",
+          "path": "::login success",
+          "id": "5e9145e3435397cfb51ed9c3151ba755",
+          "passes": 98
+        },
+        {
+          "id": "6da1f7d59a09147d8be7017e92e98bc7",
+          "passes": 98,
+          "fails": 0,
+          "name": "biometric attendance status 201",
+          "path": "::biometric attendance status 201"
+        },
+        {
+          "name": "biometric attendance response valid",
+          "path": "::biometric attendance response valid",
+          "id": "db1e7508e7ede402b886084724d0c2ec",
+          "passes": 98,
+          "fails": 0
+        }
+      ]
+  },
+  "options": {
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ],
+    "summaryTimeUnit": "",
+    "noColor": false
+  },
+  "state": {
+    "isStdErrTTY": false,
+    "testRunDurationMs": 12645.233897,
+    "isStdOutTTY": false
+  },
+  "metrics": {
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 656477,
+        "rate": 51914.974870946826
+      }
+    },
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 0.0250525,
+        "max": 3.663954,
+        "p(90)": 0.070773,
+        "p(95)": 0.14745250000000001,
+        "avg": 0.14321582142857137,
+        "min": 0.008632
+      }
+    },
+    "http_req_failed": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "rate": 0,
+        "passes": 0,
+        "fails": 196
+      }
+    },
+    "iterations": {
+      "contains": "default",
+      "values": {
+        "count": 98,
+        "rate": 7.74995550088242
+      },
+      "type": "counter"
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(90)": 6089.0609825,
+        "p(95)": 6307.715147,
+        "avg": 3885.4313803928576,
+        "min": 263.488844,
+        "med": 4193.774386499999,
+        "max": 6536.921597
+      }
+    },
+    "http_req_waiting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "med": 4193.6621895,
+        "max": 6536.842059,
+        "p(90)": 6088.9320675,
+        "p(95)": 6307.611324,
+        "avg": 3885.205304433671,
+        "min": 262.803883
+      }
+    },
+    "http_reqs": {
+      "values": {
+        "count": 196,
+        "rate": 15.49991100176484
+      },
+      "type": "counter",
+      "contains": "default"
+    },
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 98,
+        "min": 98,
+        "max": 98
+      }
+    },
+    "http_req_duration{expected_response:true}": {
+      "contains": "time",
+      "values": {
+        "avg": 3885.4313803928576,
+        "min": 263.488844,
+        "med": 4193.774386499999,
+        "max": 6536.921597,
+        "p(90)": 6089.0609825,
+        "p(95)": 6307.715147
+      },
+      "type": "trend"
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "min": 17,
+        "max": 98,
+        "value": 17
+      }
+    },
+    "http_req_blocked": {
+      "contains": "time",
+      "values": {
+        "p(95)": 3264.32233675,
+        "avg": 601.013873979592,
+        "min": 0.001843,
+        "med": 87.1939355,
+        "max": 3278.358164,
+        "p(90)": 3259.024394
+      },
+      "type": "trend"
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 0.14054075000000002,
+        "avg": 0.08286013775510204,
+        "min": 0.02991,
+        "med": 0.07494799999999999,
+        "max": 0.550263,
+        "p(90)": 0.114553
+      }
+    },
+    "checks": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "passes": 294,
+        "fails": 0,
+        "rate": 1
+      }
+    },
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 244512,
+        "rate": 19336.2971370588
+      }
+    },
+    "iteration_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "p(95)": 12397.82416405,
+        "avg": 10859.641673061225,
+        "min": 7090.544834,
+        "med": 11128.218797000001,
+        "max": 12582.867428,
+        "p(90)": 12184.6850612
+      }
+    },
+    "http_req_connecting": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "max": 3080.970313,
+        "p(90)": 3041.554214,
+        "p(95)": 3051.63304975,
+        "avg": 518.5226320816325,
+        "min": 0,
+        "med": 19.6120195
+      }
+    },
+    "http_req_tls_handshaking": {
+      "values": {
+        "p(95)": 82.98319925000001,
+        "avg": 26.459479693877558,
+        "min": 0,
+        "med": 17.289545,
+        "max": 91.249842,
+        "p(90)": 75.806588
+      },
+      "type": "trend",
+      "contains": "time"
+    }
+  },
+  "setup_data": [
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1100",
+      "device_user_id": "1",
+      "employee_fid": 70
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 71,
+      "password": "GSPL-9",
+      "username": "GSPL-1101"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 72,
+      "password": "GSPL-9",
+      "username": "GSPL-1102"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 73,
+      "password": "GSPL-9",
+      "username": "GSPL-1103"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 74,
+      "password": "GSPL-9",
+      "username": "GSPL-1104"
+    },
+    {
+      "username": "GSPL-1105",
+      "device_user_id": "1",
+      "employee_fid": 75,
+      "password": "GSPL-9"
+    },
+    {
+      "employee_fid": 76,
+      "password": "GSPL-9",
+      "username": "GSPL-1106",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 77,
+      "password": "GSPL-9",
+      "username": "GSPL-1107"
+    },
+    {
+      "employee_fid": 78,
+      "password": "GSPL-9",
+      "username": "GSPL-1108",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 79,
+      "password": "GSPL-9",
+      "username": "GSPL-1109"
+    },
+    {
+      "username": "GSPL-1110",
+      "device_user_id": "1",
+      "employee_fid": 80,
+      "password": "GSPL-9"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1111",
+      "device_user_id": "1",
+      "employee_fid": 81
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1112",
+      "device_user_id": "1",
+      "employee_fid": 82
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 83,
+      "password": "GSPL-9",
+      "username": "GSPL-1113"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 84,
+      "password": "GSPL-9",
+      "username": "GSPL-1114"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 85,
+      "password": "GSPL-9",
+      "username": "GSPL-1115"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 86,
+      "password": "GSPL-9",
+      "username": "GSPL-1116"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 87,
+      "password": "GSPL-9",
+      "username": "GSPL-1117"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 88,
+      "password": "GSPL-9",
+      "username": "GSPL-1118"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1119",
+      "device_user_id": "1",
+      "employee_fid": 89
+    },
+    {
+      "employee_fid": 90,
+      "password": "GSPL-9",
+      "username": "GSPL-1120",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 91,
+      "password": "GSPL-9",
+      "username": "GSPL-1121"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1122",
+      "device_user_id": "1",
+      "employee_fid": 92
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1123",
+      "device_user_id": "1",
+      "employee_fid": 93
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 94,
+      "password": "GSPL-9",
+      "username": "GSPL-1124"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 95,
+      "password": "GSPL-9",
+      "username": "GSPL-1125"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 96,
+      "password": "GSPL-9",
+      "username": "GSPL-1126"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 97,
+      "password": "GSPL-9",
+      "username": "GSPL-1127"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 98,
+      "password": "GSPL-9",
+      "username": "GSPL-1128"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 99,
+      "password": "GSPL-9",
+      "username": "GSPL-1129"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1130",
+      "device_user_id": "1",
+      "employee_fid": 100
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1131",
+      "device_user_id": "1",
+      "employee_fid": 101
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 102,
+      "password": "GSPL-9",
+      "username": "GSPL-1132"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 103,
+      "password": "GSPL-9",
+      "username": "GSPL-1133"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 104,
+      "password": "GSPL-9",
+      "username": "GSPL-1134"
+    },
+    {
+      "username": "GSPL-1135",
+      "device_user_id": "1",
+      "employee_fid": 105,
+      "password": "GSPL-9"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 106,
+      "password": "GSPL-9",
+      "username": "GSPL-1136"
+    },
+    {
+      "employee_fid": 107,
+      "password": "GSPL-9",
+      "username": "GSPL-1137",
+      "device_user_id": "1"
+    },
+    {
+      "username": "GSPL-1138",
+      "device_user_id": "1",
+      "employee_fid": 108,
+      "password": "GSPL-9"
+    },
+    {
+      "username": "GSPL-1139",
+      "device_user_id": "1",
+      "employee_fid": 109,
+      "password": "GSPL-9"
+    },
+    {
+      "employee_fid": 110,
+      "password": "GSPL-9",
+      "username": "GSPL-1140",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 111,
+      "password": "GSPL-9",
+      "username": "GSPL-1141"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 112,
+      "password": "GSPL-9",
+      "username": "GSPL-1142"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 113,
+      "password": "GSPL-9",
+      "username": "GSPL-1143"
+    },
+    {
+      "employee_fid": 114,
+      "password": "GSPL-9",
+      "username": "GSPL-1144",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 115,
+      "password": "GSPL-9",
+      "username": "GSPL-1145"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 116,
+      "password": "GSPL-9",
+      "username": "GSPL-1146"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1147",
+      "device_user_id": "1",
+      "employee_fid": 117
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 118,
+      "password": "GSPL-9",
+      "username": "GSPL-1148"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 119,
+      "password": "GSPL-9",
+      "username": "GSPL-1149"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 120,
+      "password": "GSPL-9",
+      "username": "GSPL-1150"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 121,
+      "password": "GSPL-9",
+      "username": "GSPL-1151"
+    },
+    {
+      "employee_fid": 122,
+      "password": "GSPL-9",
+      "username": "GSPL-1152",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 123,
+      "password": "GSPL-9",
+      "username": "GSPL-1153"
+    },
+    {
+      "employee_fid": 124,
+      "password": "GSPL-9",
+      "username": "GSPL-1154",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 125,
+      "password": "GSPL-9",
+      "username": "GSPL-1155"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 126,
+      "password": "GSPL-9",
+      "username": "GSPL-1156"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 127,
+      "password": "GSPL-9",
+      "username": "GSPL-1157"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1158",
+      "device_user_id": "1",
+      "employee_fid": 128
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 129,
+      "password": "GSPL-9",
+      "username": "GSPL-1159"
+    },
+    {
+      "employee_fid": 130,
+      "password": "GSPL-9",
+      "username": "GSPL-1160",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 131,
+      "password": "GSPL-9",
+      "username": "GSPL-1161"
+    },
+    {
+      "employee_fid": 132,
+      "password": "GSPL-9",
+      "username": "GSPL-1162",
+      "device_user_id": "1"
+    },
+    {
+      "username": "GSPL-1163",
+      "device_user_id": "1",
+      "employee_fid": 133,
+      "password": "GSPL-9"
+    },
+    {
+      "employee_fid": 134,
+      "password": "GSPL-9",
+      "username": "GSPL-1164",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 135,
+      "password": "GSPL-9",
+      "username": "GSPL-1165"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1167",
+      "device_user_id": "1",
+      "employee_fid": 136
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1168",
+      "device_user_id": "1",
+      "employee_fid": 137
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 138,
+      "password": "GSPL-9",
+      "username": "GSPL-1169"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 139,
+      "password": "GSPL-9",
+      "username": "GSPL-1170"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 140,
+      "password": "GSPL-9",
+      "username": "GSPL-1171"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 141,
+      "password": "GSPL-9",
+      "username": "GSPL-1172"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 142,
+      "password": "GSPL-9",
+      "username": "GSPL-1173"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 143,
+      "password": "GSPL-9",
+      "username": "GSPL-1174"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 144,
+      "password": "GSPL-9",
+      "username": "GSPL-1175"
+    },
+    {
+      "username": "GSPL-1176",
+      "device_user_id": "1",
+      "employee_fid": 145,
+      "password": "GSPL-9"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 146,
+      "password": "GSPL-9",
+      "username": "GSPL-1177"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 147,
+      "password": "GSPL-9",
+      "username": "GSPL-1178"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 148,
+      "password": "GSPL-9",
+      "username": "GSPL-1179"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 149,
+      "password": "GSPL-9",
+      "username": "GSPL-1180"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 150,
+      "password": "GSPL-9",
+      "username": "GSPL-1181"
+    },
+    {
+      "username": "GSPL-1182",
+      "device_user_id": "1",
+      "employee_fid": 151,
+      "password": "GSPL-9"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 152,
+      "password": "GSPL-9",
+      "username": "GSPL-1183"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 153,
+      "password": "GSPL-9",
+      "username": "GSPL-1184"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 154,
+      "password": "GSPL-9",
+      "username": "GSPL-1185"
+    },
+    {
+      "username": "GSPL-1186",
+      "device_user_id": "1",
+      "employee_fid": 155,
+      "password": "GSPL-9"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1187",
+      "device_user_id": "1",
+      "employee_fid": 156
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 157,
+      "password": "GSPL-9",
+      "username": "GSPL-1188"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 158,
+      "password": "GSPL-9",
+      "username": "GSPL-1189"
+    },
+    {
+      "username": "GSPL-1190",
+      "device_user_id": "1",
+      "employee_fid": 159,
+      "password": "GSPL-9"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 160,
+      "password": "GSPL-9",
+      "username": "GSPL-1191"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 161,
+      "password": "GSPL-9",
+      "username": "GSPL-1192"
+    },
+    {
+      "employee_fid": 162,
+      "password": "GSPL-9",
+      "username": "GSPL-1193",
+      "device_user_id": "1"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 163,
+      "password": "GSPL-9",
+      "username": "GSPL-1194"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 164,
+      "password": "GSPL-9",
+      "username": "GSPL-1195"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 165,
+      "password": "GSPL-9",
+      "username": "GSPL-1196"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 166,
+      "password": "GSPL-9",
+      "username": "GSPL-1197"
+    },
+    {
+      "device_user_id": "1",
+      "employee_fid": 167,
+      "password": "GSPL-9",
+      "username": "GSPL-1198"
+    }
+  ]
+}

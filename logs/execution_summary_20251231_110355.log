@@ -1,0 +1,39 @@
+==========================================
+K6 Test Execution Summary
+==========================================
+Start time: Wed Dec 31 11:03:55 UTC 2025
+Configuration: /k6/test-config.json
+Total tests available: 3
+Tests selected: 2
+Run all: false
+Include tests: payroll-compensation/50vuPayrollCheck.js,attendance_leave_management/morningBiometricAttendance.js
+Exclude tests: user/98vulogin.js
+==========================================
+
+--------------------------------------------------
+Test: morningBiometricAttendance
+Module: attendance_leave_management
+File: /k6/modules/attendance_leave_management/morningBiometricAttendance.js
+Started: Wed Dec 31 11:03:55 UTC 2025
+Log: attendance_leave_management_morningBiometricAttendance_20251231_110355.log
+Completed:    Wed Dec 31 11:03:55 UTC 2025
+Duration:     0s
+Status:       SUCCESS
+Exit Code:    0
+--------------------------------------------------
+Test: 50vuPayrollCheck
+Module: payroll-compensation
+File: /k6/modules/payroll-compensation/50vuPayrollCheck.js
+Started: Wed Dec 31 11:03:57 UTC 2025
+Log: payroll-compensation_50vuPayrollCheck_20251231_110357.log
+Completed:    Wed Dec 31 11:04:12 UTC 2025
+Duration:     15s
+Status:       SUCCESS
+Exit Code:    0
+
+==========================================
+Execution Completed
+==========================================
+End time: Wed Dec 31 11:04:12 UTC 2025
+Total tests executed: 2
+==========================================

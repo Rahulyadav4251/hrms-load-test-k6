@@ -1,0 +1,24 @@
+==================================================
+K6 Test Execution Detailed Log
+==================================================
+Test Name:    createBulkUsers
+Module:       employee-central
+File:         /k6/modules/employee-central/createBulkUsers.js
+Start Time:   Fri Jan  2 11:20:11 UTC 2026
+Log File:     /k6/logs/employee-central_createBulkUsers_20260102_112011.log
+Execution:    1 of 1
+Configuration: /k6/test-config.json
+==================================================
+
+=== K6 Output ===
+
+time="2026-01-02T11:20:11Z" level=error msg="could not initialize '/k6/modules/employee-central/createBulkUsers.js': could not load JS test 'file:///k6/modules/employee-central/createBulkUsers.js': json: unknown field \"gracefulRampDown\""
+
+==================================================
+Test Summary
+==================================================
+Exit Code:    0
+Duration:     0 seconds
+End Time:     Fri Jan  2 11:20:11 UTC 2026
+Status:       SUCCESS
+==================================================

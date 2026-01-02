@@ -1,0 +1,24 @@
+==================================================
+K6 Test Execution Detailed Log
+==================================================
+Test Name:    morningBiometricAttendance
+Module:       attendance_leave_management
+File:         /k6/modules/attendance_leave_management/morningBiometricAttendance.js
+Start Time:   Wed Dec 31 11:03:55 UTC 2025
+Log File:     /k6/logs/attendance_leave_management_morningBiometricAttendance_20251231_110355.log
+Execution:    1 of 2
+Configuration: /k6/test-config.json
+==================================================
+
+=== K6 Output ===
+
+time="2025-12-31T11:03:55Z" level=error msg="could not initialize '/k6/modules/attendance_leave_management/morningBiometricAttendance.js': could not load JS test 'file:///k6/modules/attendance_leave_management/morningBiometricAttendance.js': The moduleSpecifier \"6/http\" couldn't be recognised as something k6 supports."
+
+==================================================
+Test Summary
+==================================================
+Exit Code:    0
+Duration:     0 seconds
+End Time:     Wed Dec 31 11:03:55 UTC 2025
+Status:       SUCCESS
+==================================================

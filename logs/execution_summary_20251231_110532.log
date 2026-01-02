@@ -1,0 +1,29 @@
+==========================================
+K6 Test Execution Summary
+==========================================
+Start time: Wed Dec 31 11:05:32 UTC 2025
+Configuration: /k6/test-config.json
+Total tests available: 3
+Tests selected: 1
+Run all: false
+Include tests: attendance_leave_management/morningBiometricAttendance.js
+Exclude tests: user/98vulogin.js,payroll-compensation/50vuPayrollCheck.js
+==========================================
+
+--------------------------------------------------
+Test: morningBiometricAttendance
+Module: attendance_leave_management
+File: /k6/modules/attendance_leave_management/morningBiometricAttendance.js
+Started: Wed Dec 31 11:05:32 UTC 2025
+Log: attendance_leave_management_morningBiometricAttendance_20251231_110532.log
+Completed:    Wed Dec 31 11:05:33 UTC 2025
+Duration:     1s
+Status:       SUCCESS
+Exit Code:    0
+
+==========================================
+Execution Completed
+==========================================
+End time: Wed Dec 31 11:05:33 UTC 2025
+Total tests executed: 1
+==========================================

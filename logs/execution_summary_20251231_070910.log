@@ -1,0 +1,29 @@
+==========================================
+K6 Test Execution Summary
+==========================================
+Start time: Wed Dec 31 07:09:10 UTC 2025
+Configuration: /k6/test-config.json
+Total tests available: 2
+Tests selected: 1
+Run all: false
+Include tests: payroll-compensation/50vuPayrollCheck.js
+Exclude tests: user/98vulogin.js
+==========================================
+
+--------------------------------------------------
+Test: 50vuPayrollCheck
+Module: payroll-compensation
+File: /k6/modules/payroll-compensation/50vuPayrollCheck.js
+Started: Wed Dec 31 07:09:10 UTC 2025
+Log: payroll-compensation_50vuPayrollCheck_20251231_070910.log
+Completed:    Wed Dec 31 07:09:21 UTC 2025
+Duration:     11s
+Status:       SUCCESS
+Exit Code:    0
+
+==========================================
+Execution Completed
+==========================================
+End time: Wed Dec 31 07:09:21 UTC 2025
+Total tests executed: 1
+==========================================

@@ -1,0 +1,18 @@
+==========================================
+K6 Test Execution Summary
+==========================================
+Start time: Wed Dec 31 12:17:41 UTC 2025
+Configuration: /k6/test-config.json
+Total tests available: 4
+Tests selected: 1
+Run all: false
+Include tests: employee-central/createBulkUsers.js
+Exclude tests: user/98vulogin.js,payroll-compensation/50vuPayrollCheck.js,attendance_leave_management/morningBiometricAttendance.js
+==========================================
+
+--------------------------------------------------
+Test: createBulkUsers
+Module: employee-central
+File: /k6/modules/employee-central/createBulkUsers.js
+Started: Wed Dec 31 12:17:41 UTC 2025
+Log: employee-central_createBulkUsers_20251231_121741.log

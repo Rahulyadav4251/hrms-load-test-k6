@@ -1,0 +1,435 @@
+{
+  "setup_data": [
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1100"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1101"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1102"
+    },
+    {
+      "username": "GSPL-1103",
+      "password": "GSPL-9"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1104"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1105"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1106"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1107"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1108"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1109"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1110"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1111"
+    },
+    {
+      "username": "GSPL-1112",
+      "password": "GSPL-9"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1113"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1114"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1115"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1116"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1117"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1118"
+    },
+    {
+      "username": "GSPL-1119",
+      "password": "GSPL-9"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1120"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1121"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1122"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1123"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1124"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1125"
+    },
+    {
+      "username": "GSPL-1126",
+      "password": "GSPL-9"
+    },
+    {
+      "username": "GSPL-1127",
+      "password": "GSPL-9"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1128"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1129"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1130"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1131"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1132"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1133"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1134"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1135"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1136"
+    },
+    {
+      "username": "GSPL-1137",
+      "password": "GSPL-9"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1138"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1139"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1140"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1141"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1142"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1143"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1144"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1145"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1146"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1147"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1148"
+    },
+    {
+      "password": "GSPL-9",
+      "username": "GSPL-1149"
+    }
+  ],
+  "root_group": {
+    "name": "",
+    "path": "",
+    "id": "d41d8cd98f00b204e9800998ecf8427e",
+    "groups": [],
+    "checks": [
+        {
+          "id": "5e9145e3435397cfb51ed9c3151ba755",
+          "passes": 50,
+          "fails": 0,
+          "name": "login success",
+          "path": "::login success"
+        },
+        {
+          "name": "/v1/payroll-compensation/payroll-head-configuration/get-all status 200",
+          "path": "::/v1/payroll-compensation/payroll-head-configuration/get-all status 200",
+          "id": "e5bbcd4f583ff5ccb9739ef9ba91aa23",
+          "passes": 50,
+          "fails": 0
+        },
+        {
+          "name": "/v1/payroll-compensation/salary-structures/get-all status 200",
+          "path": "::/v1/payroll-compensation/salary-structures/get-all status 200",
+          "id": "3bd7890a94380d2f9c22bf8f2242832e",
+          "passes": 50,
+          "fails": 0
+        },
+        {
+          "id": "1e560192a3021247e9b02641b0a455de",
+          "passes": 50,
+          "fails": 0,
+          "name": "/v1/payroll-compensation/slab-directory/get-all status 200",
+          "path": "::/v1/payroll-compensation/slab-directory/get-all status 200"
+        }
+      ]
+  },
+  "options": {
+    "summaryTrendStats": [
+      "avg",
+      "min",
+      "med",
+      "max",
+      "p(90)",
+      "p(95)"
+    ],
+    "summaryTimeUnit": "",
+    "noColor": false
+  },
+  "state": {
+    "isStdOutTTY": false,
+    "isStdErrTTY": false,
+    "testRunDurationMs": 13516.637886
+  },
+  "metrics": {
+    "http_req_sending": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 0.003387,
+        "med": 0.01958,
+        "max": 0.996863,
+        "p(90)": 0.03549089999999999,
+        "p(95)": 0.06686384999999986,
+        "avg": 0.04306079999999998
+      }
+    },
+    "checks": {
+      "values": {
+        "rate": 1,
+        "passes": 200,
+        "fails": 0
+      },
+      "type": "rate",
+      "contains": "default"
+    },
+    "vus": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "max": 50,
+        "value": 7,
+        "min": 7
+      }
+    },
+    "vus_max": {
+      "type": "gauge",
+      "contains": "default",
+      "values": {
+        "value": 50,
+        "min": 50,
+        "max": 50
+      }
+    },
+    "http_req_blocked": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 37.734690355000026,
+        "min": 0.001207,
+        "med": 0.004169,
+        "max": 1126.499372,
+        "p(90)": 137.1587712,
+        "p(95)": 139.52741355
+      }
+    },
+    "http_req_waiting": {
+      "contains": "time",
+      "values": {
+        "avg": 2154.512384670001,
+        "min": 47.290923,
+        "med": 1922.012971,
+        "max": 5566.667526,
+        "p(90)": 4681.4096770999995,
+        "p(95)": 4935.779937449999
+      },
+      "type": "trend"
+    },
+    "http_req_receiving": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 0.017469,
+        "med": 0.100244,
+        "max": 1226.216241,
+        "p(90)": 454.89775169999996,
+        "p(95)": 644.6597973499996,
+        "avg": 116.17647633000003
+      }
+    },
+    "http_reqs": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "count": 200,
+        "rate": 14.79657897820523
+      }
+    },
+    "http_req_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "avg": 2270.7319218,
+        "min": 47.358342,
+        "med": 2098.9361465,
+        "max": 5568.170532,
+        "p(90)": 4681.5330767000005,
+        "p(95)": 4935.903469149999
+      }
+    },
+    "http_req_failed": {
+      "type": "rate",
+      "contains": "default",
+      "values": {
+        "fails": 200,
+        "rate": 0,
+        "passes": 0
+      }
+    },
+    "data_sent": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 162590,
+        "rate": 12028.878880331944
+      }
+    },
+    "iterations": {
+      "type": "counter",
+      "contains": "default",
+      "values": {
+        "rate": 3.6991447445513077,
+        "count": 50
+      }
+    },
+    "data_received": {
+      "type": "counter",
+      "contains": "data",
+      "values": {
+        "count": 31751900,
+        "rate": 2349097.4802903733
+      }
+    },
+    "iteration_duration": {
+      "type": "trend",
+      "contains": "time",
+      "values": {
+        "min": 11413.478706,
+        "med": 12279.0704895,
+        "max": 13512.866488,
+        "p(90)": 13020.956871400002,
+        "p(95)": 13105.8166313,
+        "avg": 12236.60912768
+      }
+    },
+    "http_req_duration{expected_response:true}": {
+      "values": {
+        "p(90)": 4681.5330767000005,
+        "p(95)": 4935.903469149999,
+        "avg": 2270.7319218,
+        "min": 47.358342,
+        "med": 2098.9361465,
+        "max": 5568.170532
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_req_tls_handshaking": {
+      "values": {
+        "avg": 13.545440394999998,
+        "min": 0,
+        "med": 0,
+        "max": 71.21551,
+        "p(90)": 56.0585367,
+        "p(95)": 64.4475147
+      },
+      "type": "trend",
+      "contains": "time"
+    },
+    "http_req_connecting": {
+      "contains": "time",
+      "values": {
+        "avg": 16.424680369999997,
+        "min": 0,
+        "med": 0,
+        "max": 1060.421807,
+        "p(90)": 50.235512,
+        "p(95)": 52.00643185
+      },
+      "type": "trend"
+    }
+  }
+}

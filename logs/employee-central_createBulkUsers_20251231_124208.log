@@ -1,0 +1,14 @@
+==================================================
+K6 Test Execution Detailed Log
+==================================================
+Test Name:    createBulkUsers
+Module:       employee-central
+File:         /k6/modules/employee-central/createBulkUsers.js
+Start Time:   Wed Dec 31 12:42:08 UTC 2025
+Log File:     /k6/logs/employee-central_createBulkUsers_20251231_124208.log
+Execution:    1 of 1
+Configuration: /k6/test-config.json
+==================================================
+
+=== K6 Output ===
+

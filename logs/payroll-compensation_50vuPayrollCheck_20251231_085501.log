@@ -1,0 +1,92 @@
+==================================================
+K6 Test Execution Detailed Log
+==================================================
+Test Name:    50vuPayrollCheck
+Module:       payroll-compensation
+File:         /k6/modules/payroll-compensation/50vuPayrollCheck.js
+Start Time:   Wed Dec 31 08:55:01 UTC 2025
+Log File:     /k6/logs/payroll-compensation_50vuPayrollCheck_20251231_085501.log
+Execution:    2 of 2
+Configuration: /k6/test-config.json
+==================================================
+
+=== K6 Output ===
+
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/modules/payroll-compensation/50vuPayrollCheck.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 50 max VUs, 5m30s max duration (incl. graceful stop):
+              * payroll_check: 1 iterations for each of 50 VUs (maxDuration: 5m0s, gracefulStop: 30s)
+
+
+running (0m01.0s), 50/50 VUs, 0 complete and 0 interrupted iterations
+payroll_check   [   0% ] 50 VUs  0m01.0s/5m0s  00/50 iters, 1 per VU
+
+running (0m02.0s), 50/50 VUs, 0 complete and 0 interrupted iterations
+payroll_check   [   0% ] 50 VUs  0m02.0s/5m0s  00/50 iters, 1 per VU
+
+running (0m03.0s), 50/50 VUs, 0 complete and 0 interrupted iterations
+payroll_check   [   0% ] 50 VUs  0m03.0s/5m0s  00/50 iters, 1 per VU
+
+running (0m04.0s), 50/50 VUs, 0 complete and 0 interrupted iterations
+payroll_check   [   0% ] 50 VUs  0m04.0s/5m0s  00/50 iters, 1 per VU
+
+running (0m05.0s), 50/50 VUs, 0 complete and 0 interrupted iterations
+payroll_check   [   0% ] 50 VUs  0m05.0s/5m0s  00/50 iters, 1 per VU
+
+running (0m06.0s), 50/50 VUs, 0 complete and 0 interrupted iterations
+payroll_check   [   0% ] 50 VUs  0m06.0s/5m0s  00/50 iters, 1 per VU
+
+running (0m07.0s), 50/50 VUs, 0 complete and 0 interrupted iterations
+payroll_check   [   0% ] 50 VUs  0m07.0s/5m0s  00/50 iters, 1 per VU
+
+running (0m08.0s), 50/50 VUs, 0 complete and 0 interrupted iterations
+payroll_check   [   0% ] 50 VUs  0m08.0s/5m0s  00/50 iters, 1 per VU
+
+running (0m09.0s), 34/50 VUs, 16 complete and 0 interrupted iterations
+payroll_check   [  32% ] 50 VUs  0m09.0s/5m0s  16/50 iters, 1 per VU
+
+running (0m10.0s), 05/50 VUs, 45 complete and 0 interrupted iterations
+payroll_check   [  90% ] 50 VUs  0m10.0s/5m0s  45/50 iters, 1 per VU
+time="2025-12-31T08:55:11Z" level=info msg="[k6-reporter v3.0.3] Generating HTML summary report, with theme: default" source=console
+[32m     ✓ login success[0m
+[32m     ✓ /v1/payroll-compensation/payroll-head-configuration/get-all status 200[0m
+[32m     ✓ /v1/payroll-compensation/salary-structures/get-all status 200[0m
+[32m     ✓ /v1/payroll-compensation/slab-directory/get-all status 200[0m
+
+     checks[2m.........................:[0m [36m100.00%[0m [36;2m✓ 200[0m       [36;2m✗ 0[0m   
+     data_received[2m..................:[0m [36m32 MB[0m   [36;2m3.1 MB/s[0m
+     data_sent[2m......................:[0m [36m163 kB[0m  [36;2m16 kB/s[0m
+     http_req_blocked[2m...............:[0m avg=[36m41.94ms[0m min=[36m1.38µs[0m  med=[36m4.32µs[0m  max=[36m195.84ms[0m p(90)=[36m184.85ms[0m p(95)=[36m190.3ms[0m 
+     http_req_connecting[2m............:[0m avg=[36m14.06ms[0m min=[36m0s[0m      med=[36m0s[0m      max=[36m73.79ms[0m  p(90)=[36m61.31ms[0m  p(95)=[36m62.46ms[0m 
+     http_req_duration[2m..............:[0m avg=[36m1.55s[0m   min=[36m49.15ms[0m med=[36m1.38s[0m   max=[36m4.35s[0m    p(90)=[36m3.29s[0m    p(95)=[36m4.04s[0m   
+       { expected_response:true }[2m...:[0m avg=[36m1.55s[0m   min=[36m49.15ms[0m med=[36m1.38s[0m   max=[36m4.35s[0m    p(90)=[36m3.29s[0m    p(95)=[36m4.04s[0m   
+     http_req_failed[2m................:[0m [36m0.00%[0m   [36;2m✓ 0[0m         [36;2m✗ 200[0m 
+     http_req_receiving[2m.............:[0m avg=[36m76.62ms[0m min=[36m17.87µs[0m med=[36m91.92µs[0m max=[36m573.11ms[0m p(90)=[36m295.46ms[0m p(95)=[36m345.74ms[0m
+     http_req_sending[2m...............:[0m avg=[36m58.27µs[0m min=[36m5.07µs[0m  med=[36m20.71µs[0m max=[36m6.94ms[0m   p(90)=[36m31.28µs[0m  p(95)=[36m44.81µs[0m 
+     http_req_tls_handshaking[2m.......:[0m avg=[36m17.99ms[0m min=[36m0s[0m      med=[36m0s[0m      max=[36m95.04ms[0m  p(90)=[36m82.73ms[0m  p(95)=[36m87.71ms[0m 
+     http_req_waiting[2m...............:[0m avg=[36m1.48s[0m   min=[36m49.04ms[0m med=[36m1.32s[0m   max=[36m4.35s[0m    p(90)=[36m3.28s[0m    p(95)=[36m4.04s[0m   
+     http_reqs[2m......................:[0m [36m200[0m     [36;2m19.263921/s[0m
+     iteration_duration[2m.............:[0m avg=[36m9.33s[0m   min=[36m8.7s[0m    med=[36m9.35s[0m   max=[36m10.32s[0m   p(90)=[36m9.95s[0m    p(95)=[36m10.04s[0m  
+     iterations[2m.....................:[0m [36m50[0m      [36;2m4.81598/s[0m
+     vus[2m............................:[0m [36m5[0m       [36;2mmin=5[0m       [36;2mmax=50[0m
+     vus_max[2m........................:[0m [36m50[0m      [36;2mmin=50[0m      [36;2mmax=50[0m
+running (0m10.4s), 00/50 VUs, 50 complete and 0 interrupted iterations
+payroll_check ✓ [ 100% ] 50 VUs  0m10.3s/5m0s  50/50 iters, 1 per VU
+
+==================================================
+Test Summary
+==================================================
+Exit Code:    0
+Duration:     11 seconds
+End Time:     Wed Dec 31 08:55:12 UTC 2025
+Status:       SUCCESS
+==================================================

@@ -1,0 +1,9 @@
+services:
+  k6-runner:
+    build: .
+    container_name: k6-runner
+    working_dir: /k6
+    volumes:
+      - .:/k6
+    environment:
+      BASE_URL: https://uat-api.gshcm.cloud

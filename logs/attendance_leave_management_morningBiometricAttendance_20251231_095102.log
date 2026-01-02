@@ -1,0 +1,295 @@
+==================================================
+K6 Test Execution Detailed Log
+==================================================
+Test Name:    morningBiometricAttendance
+Module:       attendance_leave_management
+File:         /k6/modules/attendance_leave_management/morningBiometricAttendance.js
+Start Time:   Wed Dec 31 09:51:02 UTC 2025
+Log File:     /k6/logs/attendance_leave_management_morningBiometricAttendance_20251231_095102.log
+Execution:    1 of 2
+Configuration: /k6/test-config.json
+==================================================
+
+=== K6 Output ===
+
+
+         /\      Grafana   /‾‾/  
+    /\  /  \     |\  __   /  /   
+   /  \/    \    | |/ /  /   ‾‾\ 
+  /          \   |   (  |  (‾)  |
+ / __________ \  |_|\_\  \_____/ 
+
+     execution: local
+        script: /k6/modules/attendance_leave_management/morningBiometricAttendance.js
+        output: -
+
+     scenarios: (100.00%) 1 scenario, 98 max VUs, 5m30s max duration (incl. graceful stop):
+              * morning_attendance: 1 iterations for each of 98 VUs (maxDuration: 5m0s, gracefulStop: 30s)
+
+time="2025-12-31T09:51:03Z" level=info msg="Setup: Prepared 98 users for biometric attendance" source=console
+time="2025-12-31T09:51:03Z" level=info msg="Employee IDs range: 70 to 167" source=console
+time="2025-12-31T09:51:03Z" level=info msg="VU 6: Submitting biometric attendance for employee 75 with device 1 at 2025-12-31T08:48:00.000Z" source=console
+time="2025-12-31T09:51:03Z" level=info msg="VU 87: Submitting biometric attendance for employee 156 with device 1 at 2025-12-31T09:07:00.000Z" source=console
+time="2025-12-31T09:51:03Z" level=info msg="VU 68: Submitting biometric attendance for employee 137 with device 1 at 2025-12-31T09:08:00.000Z" source=console
+time="2025-12-31T09:51:03Z" level=info msg="VU 30: Submitting biometric attendance for employee 99 with device 1 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:03Z" level=info msg="VU 46: Submitting biometric attendance for employee 115 with device 1 at 2025-12-31T09:07:00.000Z" source=console
+time="2025-12-31T09:51:03Z" level=info msg="VU 49: Submitting biometric attendance for employee 118 with device 1 at 2025-12-31T08:58:00.000Z" source=console
+
+running (0m00.9s), 98/98 VUs, 0 complete and 0 interrupted iterations
+morning_attendance   [   0% ] 98 VUs  0m00.9s/5m0s  00/98 iters, 1 per VU
+time="2025-12-31T09:51:04Z" level=info msg="VU 15: Submitting biometric attendance for employee 84 with device 1 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 40: Submitting biometric attendance for employee 109 with device 1 at 2025-12-31T08:59:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 42: Submitting biometric attendance for employee 111 with device 1 at 2025-12-31T08:48:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 39: Submitting biometric attendance for employee 108 with device 1 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 50: Submitting biometric attendance for employee 119 with device 1 at 2025-12-31T09:14:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 13: Submitting biometric attendance for employee 82 with device 1 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 73: Submitting biometric attendance for employee 142 with device 1 at 2025-12-31T09:01:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 63: Submitting biometric attendance for employee 132 with device 1 at 2025-12-31T09:06:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 61: Submitting biometric attendance for employee 130 with device 1 at 2025-12-31T09:11:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 28: Submitting biometric attendance for employee 97 with device 1 at 2025-12-31T09:11:00.000Z" source=console
+time="2025-12-31T09:51:04Z" level=info msg="VU 19: Submitting biometric attendance for employee 88 with device 1 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:05Z" level=info msg="VU 74: Submitting biometric attendance for employee 143 with device 1 at 2025-12-31T09:11:00.000Z" source=console
+
+running (0m01.9s), 98/98 VUs, 0 complete and 0 interrupted iterations
+morning_attendance   [   0% ] 98 VUs  0m01.9s/5m0s  00/98 iters, 1 per VU
+time="2025-12-31T09:51:05Z" level=info msg="VU 32: Submitting biometric attendance for employee 101 with device 1 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:05Z" level=info msg="VU 66: Submitting biometric attendance for employee 135 with device 1 at 2025-12-31T09:07:00.000Z" source=console
+time="2025-12-31T09:51:05Z" level=info msg="VU 22: Submitting biometric attendance for employee 91 with device 1 at 2025-12-31T09:06:00.000Z" source=console
+time="2025-12-31T09:51:05Z" level=info msg="VU 52: Submitting biometric attendance for employee 121 with device 1 at 2025-12-31T08:46:00.000Z" source=console
+time="2025-12-31T09:51:05Z" level=info msg="VU 88: Submitting biometric attendance for employee 157 with device 1 at 2025-12-31T09:03:00.000Z" source=console
+time="2025-12-31T09:51:05Z" level=info msg="VU 43: Submitting biometric attendance for employee 112 with device 1 at 2025-12-31T09:11:00.000Z" source=console
+time="2025-12-31T09:51:05Z" level=info msg="VU 24: Submitting biometric attendance for employee 93 with device 1 at 2025-12-31T08:58:00.000Z" source=console
+time="2025-12-31T09:51:05Z" level=info msg="VU 35: Submitting biometric attendance for employee 104 with device 1 at 2025-12-31T09:05:00.000Z" source=console
+time="2025-12-31T09:51:05Z" level=info msg="VU 97: Submitting biometric attendance for employee 166 with device 1 at 2025-12-31T08:47:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 51: Submitting biometric attendance for employee 120 with device 1 at 2025-12-31T09:13:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 29: Submitting biometric attendance for employee 98 with device 1 at 2025-12-31T09:10:00.000Z" source=console
+
+running (0m02.9s), 98/98 VUs, 0 complete and 0 interrupted iterations
+morning_attendance   [   0% ] 98 VUs  0m02.9s/5m0s  00/98 iters, 1 per VU
+time="2025-12-31T09:51:06Z" level=info msg="VU 4: Submitting biometric attendance for employee 73 with device 1 at 2025-12-31T09:07:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 44: Submitting biometric attendance for employee 113 with device 1 at 2025-12-31T09:03:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 38: Submitting biometric attendance for employee 107 with device 1 at 2025-12-31T08:47:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 86: Submitting biometric attendance for employee 155 with device 1 at 2025-12-31T09:14:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 45: Submitting biometric attendance for employee 114 with device 1 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 60: Submitting biometric attendance for employee 129 with device 1 at 2025-12-31T09:02:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 26: Submitting biometric attendance for employee 95 with device 1 at 2025-12-31T08:57:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 33: Submitting biometric attendance for employee 102 with device 1 at 2025-12-31T08:47:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 41: Submitting biometric attendance for employee 110 with device 1 at 2025-12-31T09:12:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 16: Submitting biometric attendance for employee 85 with device 1 at 2025-12-31T09:04:00.000Z" source=console
+time="2025-12-31T09:51:06Z" level=info msg="VU 53: Submitting biometric attendance for employee 122 with device 1 at 2025-12-31T08:47:00.000Z" source=console
+
+running (0m03.9s), 98/98 VUs, 0 complete and 0 interrupted iterations
+morning_attendance   [   0% ] 98 VUs  0m03.9s/5m0s  00/98 iters, 1 per VU
+time="2025-12-31T09:51:07Z" level=info msg="VU 62: Submitting biometric attendance for employee 131 with device 1 at 2025-12-31T08:58:00.000Z" source=console
+time="2025-12-31T09:51:07Z" level=info msg="VU 25: Submitting biometric attendance for employee 94 with device 1 at 2025-12-31T08:54:00.000Z" source=console
+time="2025-12-31T09:51:07Z" level=info msg="VU 75: Submitting biometric attendance for employee 144 with device 1 at 2025-12-31T08:56:00.000Z" source=console
+time="2025-12-31T09:51:07Z" level=info msg="VU 9: Submitting biometric attendance for employee 78 with device 1 at 2025-12-31T09:03:00.000Z" source=console
+time="2025-12-31T09:51:07Z" level=info msg="VU 27: Submitting biometric attendance for employee 96 with device 1 at 2025-12-31T08:52:00.000Z" source=console
+time="2025-12-31T09:51:07Z" level=info msg="VU 17: Submitting biometric attendance for employee 86 with device 1 at 2025-12-31T09:02:00.000Z" source=console
+time="2025-12-31T09:51:07Z" level=info msg="VU 31: Submitting biometric attendance for employee 100 with device 1 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:07Z" level=info msg="VU 57: Submitting biometric attendance for employee 126 with device 1 at 2025-12-31T08:54:00.000Z" source=console
+time="2025-12-31T09:51:07Z" level=info msg="VU 8: Submitting biometric attendance for employee 77 with device 1 at 2025-12-31T09:10:00.000Z" source=console
+time="2025-12-31T09:51:07Z" level=info msg="VU 55: Submitting biometric attendance for employee 124 with device 1 at 2025-12-31T09:10:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 72: Submitting biometric attendance for employee 141 with device 1 at 2025-12-31T08:58:00.000Z" source=console
+
+running (0m04.9s), 98/98 VUs, 0 complete and 0 interrupted iterations
+morning_attendance   [   0% ] 98 VUs  0m04.9s/5m0s  00/98 iters, 1 per VU
+time="2025-12-31T09:51:08Z" level=info msg="VU 34: Submitting biometric attendance for employee 103 with device 1 at 2025-12-31T09:06:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 59: Submitting biometric attendance for employee 128 with device 1 at 2025-12-31T09:05:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 14: Submitting biometric attendance for employee 83 with device 1 at 2025-12-31T09:08:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 76: Submitting biometric attendance for employee 145 with device 1 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 6: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:48:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 87: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:07:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 89: Submitting biometric attendance for employee 158 with device 1 at 2025-12-31T08:50:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 54: Submitting biometric attendance for employee 123 with device 1 at 2025-12-31T09:02:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 68: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:08:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 94: Submitting biometric attendance for employee 163 with device 1 at 2025-12-31T08:50:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 30: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 18: Submitting biometric attendance for employee 87 with device 1 at 2025-12-31T09:14:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 36: Submitting biometric attendance for employee 105 with device 1 at 2025-12-31T09:00:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 83: Submitting biometric attendance for employee 152 with device 1 at 2025-12-31T08:46:00.000Z" source=console
+time="2025-12-31T09:51:08Z" level=info msg="VU 46: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:07:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 49: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:58:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 47: Submitting biometric attendance for employee 116 with device 1 at 2025-12-31T09:15:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 15: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 70: Submitting biometric attendance for employee 139 with device 1 at 2025-12-31T09:11:00.000Z" source=console
+
+running (0m06.0s), 98/98 VUs, 0 complete and 0 interrupted iterations
+morning_attendance   [   0% ] 98 VUs  0m05.9s/5m0s  00/98 iters, 1 per VU
+time="2025-12-31T09:51:09Z" level=info msg="VU 3: Submitting biometric attendance for employee 72 with device 1 at 2025-12-31T08:57:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 40: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:59:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 85: Submitting biometric attendance for employee 154 with device 1 at 2025-12-31T09:15:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 42: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:48:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 5: Submitting biometric attendance for employee 74 with device 1 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 1: Submitting biometric attendance for employee 70 with device 1 at 2025-12-31T09:14:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 92: Submitting biometric attendance for employee 161 with device 1 at 2025-12-31T08:45:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 67: Submitting biometric attendance for employee 136 with device 1 at 2025-12-31T08:46:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 21: Submitting biometric attendance for employee 90 with device 1 at 2025-12-31T09:01:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 84: Submitting biometric attendance for employee 153 with device 1 at 2025-12-31T09:06:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 79: Submitting biometric attendance for employee 148 with device 1 at 2025-12-31T08:47:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 37: Submitting biometric attendance for employee 106 with device 1 at 2025-12-31T09:11:00.000Z" source=console
+time="2025-12-31T09:51:09Z" level=info msg="VU 64: Submitting biometric attendance for employee 133 with device 1 at 2025-12-31T09:00:00.000Z" source=console
+
+running (0m07.0s), 98/98 VUs, 0 complete and 0 interrupted iterations
+morning_attendance   [   0% ] 98 VUs  0m06.9s/5m0s  00/98 iters, 1 per VU
+time="2025-12-31T09:51:10Z" level=info msg="VU 39: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:10Z" level=info msg="VU 50: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:14:00.000Z" source=console
+time="2025-12-31T09:51:10Z" level=info msg="VU 13: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:10Z" level=info msg="VU 73: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:01:00.000Z" source=console
+time="2025-12-31T09:51:10Z" level=info msg="VU 56: Submitting biometric attendance for employee 125 with device 1 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:10Z" level=info msg="VU 82: Submitting biometric attendance for employee 151 with device 1 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:10Z" level=info msg="VU 11: Submitting biometric attendance for employee 80 with device 1 at 2025-12-31T09:12:00.000Z" source=console
+time="2025-12-31T09:51:10Z" level=info msg="VU 63: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:06:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 48: Submitting biometric attendance for employee 117 with device 1 at 2025-12-31T08:58:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 61: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:11:00.000Z" source=console
+
+running (0m08.0s), 92/98 VUs, 6 complete and 0 interrupted iterations
+morning_attendance   [   6% ] 98 VUs  0m07.9s/5m0s  06/98 iters, 1 per VU
+time="2025-12-31T09:51:11Z" level=info msg="VU 81: Submitting biometric attendance for employee 150 with device 1 at 2025-12-31T09:10:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 96: Submitting biometric attendance for employee 165 with device 1 at 2025-12-31T08:56:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 19: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 78: Submitting biometric attendance for employee 147 with device 1 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 28: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:11:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 74: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:11:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 2: Submitting biometric attendance for employee 71 with device 1 at 2025-12-31T08:54:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 32: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 98: Submitting biometric attendance for employee 167 with device 1 at 2025-12-31T09:00:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 10: Submitting biometric attendance for employee 79 with device 1 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 66: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:07:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 69: Submitting biometric attendance for employee 138 with device 1 at 2025-12-31T09:09:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 20: Submitting biometric attendance for employee 89 with device 1 at 2025-12-31T09:13:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 22: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:06:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 77: Submitting biometric attendance for employee 146 with device 1 at 2025-12-31T08:50:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 52: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:46:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 88: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:03:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 90: Submitting biometric attendance for employee 159 with device 1 at 2025-12-31T09:15:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 7: Submitting biometric attendance for employee 76 with device 1 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:11Z" level=info msg="VU 43: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:11:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 80: Submitting biometric attendance for employee 149 with device 1 at 2025-12-31T09:04:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 24: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:58:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 35: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:05:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 65: Submitting biometric attendance for employee 134 with device 1 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 95: Submitting biometric attendance for employee 164 with device 1 at 2025-12-31T09:09:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 97: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:47:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 71: Submitting biometric attendance for employee 140 with device 1 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 51: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:13:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 93: Submitting biometric attendance for employee 162 with device 1 at 2025-12-31T08:53:00.000Z" source=console
+
+running (0m09.0s), 88/98 VUs, 10 complete and 0 interrupted iterations
+morning_attendance   [  10% ] 98 VUs  0m08.9s/5m0s  10/98 iters, 1 per VU
+time="2025-12-31T09:51:12Z" level=info msg="VU 23: Submitting biometric attendance for employee 92 with device 1 at 2025-12-31T09:15:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 91: Submitting biometric attendance for employee 160 with device 1 at 2025-12-31T08:46:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 29: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:10:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 44: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:03:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 4: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:07:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 12: Submitting biometric attendance for employee 81 with device 1 at 2025-12-31T09:04:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 38: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:47:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 58: Submitting biometric attendance for employee 127 with device 1 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 86: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:14:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 45: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 60: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:02:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 26: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:57:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 33: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:47:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 16: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:04:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 41: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:12:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 62: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:58:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 53: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:47:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 75: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:56:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 25: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:54:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 27: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:52:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 9: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:03:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 17: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:02:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 57: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:54:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 31: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 8: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:10:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 55: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:10:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 72: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:58:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 34: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:06:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 89: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:50:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 59: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:05:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 14: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:08:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 76: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 54: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:02:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 36: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:00:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 94: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:50:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 47: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:15:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 70: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:11:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 83: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:46:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 3: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:57:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 18: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:14:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 85: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:15:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 92: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:45:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 5: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 21: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:01:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 1: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:14:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 84: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:06:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 67: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:46:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 82: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 79: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:47:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 64: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:00:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 37: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:11:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 11: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:12:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 56: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 96: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:56:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 81: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:10:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 48: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:58:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 78: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 69: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:09:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 90: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:15:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 2: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:54:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 20: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:13:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 77: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:50:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 10: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:51:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 7: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 98: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:00:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 23: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:15:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 95: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:09:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 93: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 71: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 80: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:04:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 91: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:46:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 65: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:53:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 58: Successfully submitted biometric attendance for employee 6 at 2025-12-31T08:55:00.000Z" source=console
+time="2025-12-31T09:51:12Z" level=info msg="VU 12: Successfully submitted biometric attendance for employee 6 at 2025-12-31T09:04:00.000Z" source=console
+
+running (0m10.0s), 82/98 VUs, 16 complete and 0 interrupted iterations
+morning_attendance   [  16% ] 98 VUs  0m09.9s/5m0s  16/98 iters, 1 per VU
+
+running (0m11.0s), 59/98 VUs, 39 complete and 0 interrupted iterations
+morning_attendance   [  40% ] 98 VUs  0m10.9s/5m0s  39/98 iters, 1 per VU
+
+running (0m12.0s), 17/98 VUs, 81 complete and 0 interrupted iterations
+morning_attendance   [  83% ] 98 VUs  0m11.9s/5m0s  81/98 iters, 1 per VU
+time="2025-12-31T09:51:15Z" level=info msg="[k6-reporter v3.0.3] Generating HTML summary report, with theme: default" source=console
+[32m     ✓ login success[0m
+[32m     ✓ biometric attendance status 201[0m
+[32m     ✓ biometric attendance response valid[0m
+
+     checks[2m.........................:[0m [36m100.00%[0m [36;2m✓ 294[0m       [36;2m✗ 0[0m   
+     data_received[2m..................:[0m [36m657 kB[0m  [36;2m52 kB/s[0m
+     data_sent[2m......................:[0m [36m245 kB[0m  [36;2m19 kB/s[0m
+     http_req_blocked[2m...............:[0m avg=[36m601.01ms[0m min=[36m1.84µs[0m   med=[36m87.19ms[0m max=[36m3.27s[0m    p(90)=[36m3.25s[0m    p(95)=[36m3.26s[0m   
+     http_req_connecting[2m............:[0m avg=[36m518.52ms[0m min=[36m0s[0m       med=[36m19.61ms[0m max=[36m3.08s[0m    p(90)=[36m3.04s[0m    p(95)=[36m3.05s[0m   
+     http_req_duration[2m..............:[0m avg=[36m3.88s[0m    min=[36m263.48ms[0m med=[36m4.19s[0m   max=[36m6.53s[0m    p(90)=[36m6.08s[0m    p(95)=[36m6.3s[0m    
+       { expected_response:true }[2m...:[0m avg=[36m3.88s[0m    min=[36m263.48ms[0m med=[36m4.19s[0m   max=[36m6.53s[0m    p(90)=[36m6.08s[0m    p(95)=[36m6.3s[0m    
+     http_req_failed[2m................:[0m [36m0.00%[0m   [36;2m✓ 0[0m         [36;2m✗ 196[0m 
+     http_req_receiving[2m.............:[0m avg=[36m82.86µs[0m  min=[36m29.91µs[0m  med=[36m74.94µs[0m max=[36m550.26µs[0m p(90)=[36m114.55µs[0m p(95)=[36m140.54µs[0m
+     http_req_sending[2m...............:[0m avg=[36m143.21µs[0m min=[36m8.63µs[0m   med=[36m25.05µs[0m max=[36m3.66ms[0m   p(90)=[36m70.77µs[0m  p(95)=[36m147.45µs[0m
+     http_req_tls_handshaking[2m.......:[0m avg=[36m26.45ms[0m  min=[36m0s[0m       med=[36m17.28ms[0m max=[36m91.24ms[0m  p(90)=[36m75.8ms[0m   p(95)=[36m82.98ms[0m 
+     http_req_waiting[2m...............:[0m avg=[36m3.88s[0m    min=[36m262.8ms[0m  med=[36m4.19s[0m   max=[36m6.53s[0m    p(90)=[36m6.08s[0m    p(95)=[36m6.3s[0m    
+     http_reqs[2m......................:[0m [36m196[0m     [36;2m15.499911/s[0m
+     iteration_duration[2m.............:[0m avg=[36m10.85s[0m   min=[36m7.09s[0m    med=[36m11.12s[0m  max=[36m12.58s[0m   p(90)=[36m12.18s[0m   p(95)=[36m12.39s[0m  
+     iterations[2m.....................:[0m [36m98[0m      [36;2m7.749956/s[0m
+     vus[2m............................:[0m [36m17[0m      [36;2mmin=17[0m      [36;2mmax=98[0m
+     vus_max[2m........................:[0m [36m98[0m      [36;2mmin=98[0m      [36;2mmax=98[0m
+running (0m12.6s), 00/98 VUs, 98 complete and 0 interrupted iterations
+morning_attendance ✓ [ 100% ] 98 VUs  0m12.6s/5m0s  98/98 iters, 1 per VU
+
+==================================================
+Test Summary
+==================================================
+Exit Code:    0
+Duration:     14 seconds
+End Time:     Wed Dec 31 09:51:16 UTC 2025
+Status:       SUCCESS
+==================================================
